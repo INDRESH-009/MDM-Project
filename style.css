@@ -1,9 +1,20 @@
+:root {
+    --var1: 
+}
+
 *{
     /*remove all default margin and padding*/
     margin: 0px;
     padding: 0px;
     font-family: 'Ephesis', cursive;
     font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(16, 173, 16);
+    font-size: 18px;
+    opacity: 0.8;
 }
 
 /*DESIGNING HEADER*/
@@ -61,8 +72,10 @@ nav{
     /*To arrange buttons in a same line*/
     display: flex;
     align-items: center;
+    justify-content: space-around;
     background-color: rgb(96, 158, 228);
 }
+
 nav button{
     /*Styles to buttons*/
     height: 30px;
@@ -77,8 +90,15 @@ nav button{
 }
 .home{
     /*Adding extra margin to move from left side of screen*/
-    margin-left: 60px;
+    margin-left: 250px;
 }
+
+
+
+.help {
+    margin-right: 250px;
+}
+
 
 /*CONTENT DESIGN*/
 .content1{
