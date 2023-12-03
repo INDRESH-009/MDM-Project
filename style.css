@@ -1,5 +1,5 @@
 :root {
-    --var1: 
+    --var1: rgb(96, 158, 228);
 }
 
 *{
@@ -73,7 +73,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(96, 158, 228);
+    background-color: var(--var1);
 }
 
 nav button{
